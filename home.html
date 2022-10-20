@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221020135442">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="home.html" class="header__logo logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+						<span>Vision</span>
+					</a>
+					<div class="header__right">
+						<div class="header__menu menu">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+									<li class="menu__item"><a href="category.html" class="menu__link">Category</a></li>
+									<li class="menu__item"><a href="location.html" class="menu__link">Location</a></li>
+									<li class="menu__item"><a href="faq.html" class="menu__link">FAQ</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__account account-header">
+							<a href="login.html" class="account-header__signin btn btn--blue">Sign In</a>
+							<div class="account-header__menu _active">
+								<a href="cart.html" class="account-header__cart">
+									<img src="img/header/icons/cart.svg" alt="">
+								</a>
+								<a href="account.html" class="account-header__profile">
+									<img src="img/header/icons/profile.svg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__section main-block">
+				<div class="main-block__body">
+					<!-- Оболочка слайдера -->
+					<div class="main-block__slider slider-main swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="slider-main__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="slider-main__slide swiper-slide">
+								<div class="slider-main__image-ibg">
+									<picture><source srcset="img/main-block/cat.webp" type="image/webp"><img src="img/main-block/cat.jpg" alt="Cat"></picture>
+								</div>
+								<div id="slider-main-cat-content" class="slider-main__content">
+									<div class="slider-main__text">
+										<p>Glasses for everybody</p>
+										<p>Get 15% discount!</p>
+									</div>
+								</div>
+							</div>
+							<div class="slider-main__slide swiper-slide">
+								<div class="slider-main__image-ibg">
+									<picture><source srcset="img/main-block/women.webp" type="image/webp"><img src="img/main-block/women.jpg" alt="Woman"></picture>
+									<div id="slider-main-woman-content" class="slider-main__content">
+										<div class="slider-main__text">
+											<p>“Fashion is what you buy.</p>
+											<p><span>Style</span> is what you do with it”.</p>
+											<p>-Nicky hilton</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-main__slide swiper-slide">
+								<div class="slider-main__image-ibg">
+									<picture><source srcset="img/main-block/aviator.webp" type="image/webp"><img src="img/main-block/aviator.jpg" alt="Aviator"></picture>
+								</div>
+								<div id="slider-main-aviator-content" class="slider-main__content">
+									<picture><source srcset="img/main-block/rayban.webp" type="image/webp"><img src="img/main-block/rayban.png" alt="RayBan"></picture>
+								</div>
+							</div>
+							<div class="slider-main__slide swiper-slide">
+								<div class="slider-main__image-ibg">
+									<picture><source srcset="img/main-block/darkness.webp" type="image/webp"><img src="img/main-block/darkness.jpg" alt="Darkness"></picture>
+									<div id="slider-main-darkness-content" class="slider-main__content">
+										<div class="slider-main__text">
+											<p>Upto 30% off</p>
+											<p>For specially-abled pEOPLE</p>
+											<p>Only in vision</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Если нужна пагинация -->
+						<div class="slider-main__pagination swiper-pagination"></div>
+						<!-- Если нужна навигация (влево/вправо) -->
+						<button type="button" class="slider-main__button slider-main__button-prev swiper-button-prev">
+							<img src="img/main-block/icons/caret.svg" alt="">
+						</button>
+						<button type="button" class="slider-main__button slider-main__button-next swiper-button-next">
+							<img src="img/main-block/icons/caret.svg" alt="">
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__container">
+					<div class="products__body">
+						<div class="products__categories">
+							<div class="products__category category-products">
+								<h2 class="category-products__title title">SUNGLASSES</h2>
+								<ul class="category-products__list">
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Premium Square Sunglasses</a>
+											<div class="item-products__price f-16-26-500">$32.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Premium Cat-Eye Sunglasses</a>
+											<div class="item-products__price f-16-26-500">$39.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Premium Tint Sunglasses</a>
+											<div class="item-products__price f-16-26-500">$29.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Premium Aviator Sunglasses</a>
+											<div class="item-products__price f-16-26-500">$39.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="products__category category-products">
+								<h2 class="category-products__title title">PRESCRIPTION FRAMES</h2>
+								<ul class="category-products__list">
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/05.webp" type="image/webp"><img src="img/products/05.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Square Glasses</a>
+											<div class="item-products__price f-16-26-500">$23.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Aviator Glasses</a>
+											<div class="item-products__price f-16-26-500">$32.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/07.webp" type="image/webp"><img src="img/products/07.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Cat Eye Glasses</a>
+											<div class="item-products__price f-16-26-500">$23.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/08.webp" type="image/webp"><img src="img/products/08.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Rimless Glasses</a>
+											<div class="item-products__price f-16-26-500">$35.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="products__category category-products">
+								<h2 class="category-products__title title">PROTECTIVE EYEWARE</h2>
+								<ul class="category-products__list">
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/09.webp" type="image/webp"><img src="img/products/09.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Safety Glasses</a>
+											<div class="item-products__price f-16-26-500">$39.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/10.webp" type="image/webp"><img src="img/products/10.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Protective Glasses</a>
+											<div class="item-products__price f-16-26-500">$27.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/11.webp" type="image/webp"><img src="img/products/11.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Sports Protective Goggles</a>
+											<div class="item-products__price f-16-26-500">$45.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+									<li class="category-products__item item-products">
+										<a href="product.html" class="item-products__image-ibg_contain">
+											<picture><source srcset="img/products/12.webp" type="image/webp"><img src="img/products/12.png" alt=""></picture>
+										</a>
+										<div class="item-products__content">
+											<a href="product.html" class="item-products__title f-16-26-500">Protective Goggles</a>
+											<div class="item-products__price f-16-26-500">$9.95</div>
+											<div class="item-products__buttons">
+												<a href="" class="item-products__wish wish-button"></a>
+												<a href="" class="item-products__cart cart-button">Add to cart</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container-small">
+				<div class="footer__body">
+					<div class="footer__column">
+						<div class="footer__about">
+							<h3 class="footer__title footer-title">About Us</h3>
+							<div class="footer__text footer-text">
+								<p>Nepal's Coolest Eyewear Store</p>
+								<p>ORDER ANYTIME AND RECEIVE FREE AND FAST DELIVERY.</p>
+							</div>
+						</div>
+						<div class="footer__contact contact-footer">
+							<h3 class="contact-footer__title footer-title">Contact</h3>
+							<ul class="contact-footer__list">
+								<li class="contact-footer__item">
+									<p class="contact-footer__label footer-text">Phone</p>
+									<a href="tel:9823749232" class="contact-footer__link footer-text footer-link">9823-749-232</a>
+								</li>
+								<li class="contact-footer__item">
+									<p class="contact-footer__label footer-text">Email</p>
+									<a href="mailto:visioncustomercare@outlook.com" class="contact-footer__link footer-text footer-link">visioncustomercare@outlook.com</a>
+								</li>
+								<li class="contact-footer__item">
+									<p class="contact-footer__label footer-text">Address</p>
+									<p class="contact-footer__text footer-text">Maitidevi, Kathmandu</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__policy policy-footer">
+							<h3 class="policy-footer__title footer-title">Policy</h3>
+							<ul class="policy-footer__list">
+								<li class="policy-footer__item">
+									<a href="" class="policy-footer__link footer-text footer-link">Delivery</a>
+								</li>
+								<li class="policy-footer__item">
+									<a href="" class="policy-footer__link footer-text footer-link">Payment</a>
+								</li>
+								<li class="policy-footer__item">
+									<a href="" class="policy-footer__link footer-text footer-link">Exchange and Return</a>
+								</li>
+								<li class="policy-footer__item">
+									<a href="" class="policy-footer__link footer-text footer-link">Cancellation</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__socials socials-footer">
+							<h3 class="socials-footer__title footer-title">Socials</h3>
+							<ul class="socials-footer__list">
+								<li class="socials-footer__item">
+									<a href="" class="socials-footer__link instagram-link">
+										<!-- <img src="img/footer/icons/instagram.svg" alt="Instagram"> -->
+									</a>
+								</li>
+								<li class="socials-footer__item">
+									<a href="" class="socials-footer__link twitter-link">
+										<!-- <img src="img/footer/icons/twitter.svg" alt="Twitter"> -->
+									</a>
+								</li>
+								<li class="socials-footer__item">
+									<a href="" class="socials-footer__link facebook-link">
+										<!-- <img src="img/footer/icons/facebook.svg" alt="Facebook"> -->
+									</a>
+								</li>
+								<li class="socials-footer__item">
+									<a href="" class="socials-footer__link youtube-link">
+										<!-- <img src="img/footer/icons/youtube.svg" alt="Youtube"> -->
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20221020135442"></script>
+</body>
+
+</html>

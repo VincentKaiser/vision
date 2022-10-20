@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Order</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221020135442">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="home.html" class="header__logo logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+						<span>Vision</span>
+					</a>
+					<div class="header__right">
+						<div class="header__menu menu">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+									<li class="menu__item"><a href="category.html" class="menu__link">Category</a></li>
+									<li class="menu__item"><a href="location.html" class="menu__link">Location</a></li>
+									<li class="menu__item"><a href="faq.html" class="menu__link">FAQ</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__account account-header">
+							<a href="login.html" class="account-header__signin btn btn--blue">Sign In</a>
+							<div class="account-header__menu _active">
+								<a href="cart.html" class="account-header__cart">
+									<img src="img/header/icons/cart.svg" alt="">
+								</a>
+								<a href="account.html" class="account-header__profile">
+									<img src="img/header/icons/profile.svg" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="account">
+				<div class="account__container">
+					<div class="account__body">
+						<div class="account__profile profile">
+							<div class="profile__image">
+								<picture><source srcset="img/account/profile.webp" type="image/webp"><img src="img/account/profile.png" alt=""></picture>
+							</div>
+							<form action="" class="profile__form form-profile">
+								<div class="form-profile__main">
+									<div class="form-profile__line">
+										<input disabled autocomplete="off" type="text" name="form[]" data-error="Ошибка" value="UME DAKI" placeholder="" id="profile-name" class="form-profile__input input">
+									</div>
+									<div class="form-profile__line">
+										<label for="profile-email" class="form-profile__label">Email</label>
+										<input disabled autocomplete="off" type="email" name="form[]" data-error="Ошибка" value="vision_demo@gmail.com" placeholder="" id="profile-email" class="form-profile__input input">
+									</div>
+									<div class="form-profile__line">
+										<label for="profile-contact" class="form-profile__label">Contact</label>
+										<input disabled autocomplete="off" type="tel" name="form[]" data-error="Ошибка" value="9843871688" placeholder="" id="profile-contact" class="form-profile__input input">
+									</div>
+									<div class="form-profile__line">
+										<label for="profile-address" class="form-profile__label">Address</label>
+										<input disabled autocomplete="off" type="text" name="form[]" data-error="Ошибка" value="" placeholder="Please enter your address" id="profile-address" class="form-profile__input input">
+									</div>
+								</div>
+								<div class="form-profile__bottom">
+									<button type="submit" id="profile-edit-btn" class="form-profile__btn btn btn--black">Edit</button>
+									<button type="submit" id="profile-logout-btn" class="form-profile__btn btn btn--red">Logout</button>
+								</div>
+							</form>
+						</div>
+						<div class="account__bottom">
+							<div class="account__purchase purchase-account">
+								<h3 class="purchase-account__title f-24-39">Purchase History</h3>
+								<div class="purchase-account__items">
+									<div class="purchase-account__item item-purchase">
+										<div class="item-purchase__content">
+											<a href="product.html" class="item-purchase__image">
+												<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt=""></picture>
+											</a>
+											<div class="item-purchase__body">
+												<a href="product.html" class="item-purchase__title item-cart-title">Premium Square Sunglasses</a>
+												<div class="item-purchase__price f-14-23">$32.95</div>
+												<div class="item-purchase__date f-14-23">14th February 2022</div>
+											</div>
+										</div>
+									</div>
+									<div class="purchase-account__item item-purchase">
+										<div class="item-purchase__content">
+											<a href="product.html" class="item-purchase__image">
+												<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.png" alt=""></picture>
+											</a>
+											<div class="item-purchase__body">
+												<a href="product.html" class="item-purchase__title item-cart-title">Aviator Glasses</a>
+												<div class="item-purchase__price f-14-23">$32.95</div>
+												<div class="item-purchase__date f-14-23">4th January 2022</div>
+											</div>
+										</div>
+									</div>
+									<div class="purchase-account__item item-purchase">
+										<div class="item-purchase__content">
+											<a href="product.html" class="item-purchase__image">
+												<picture><source srcset="img/products/11.webp" type="image/webp"><img src="img/products/11.png" alt=""></picture>
+											</a>
+											<div class="item-purchase__body">
+												<a href="product.html" class="item-purchase__title item-cart-title">Sports Protective Goggles</a>
+												<div class="item-purchase__price f-14-23">$45.95</div>
+												<div class="item-purchase__date f-14-23">21st December 2021</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="account__wishlist wishlist-account">
+								<h3 class="wishlist-account__title f-24-39">Wishlist</h3>
+								<div class="wishlist-account__items">
+									<div class="wishlist-account__item item-wishlist">
+										<div class="item-wishlist__content">
+											<a href="product.html" class="item-wishlist__image">
+												<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt=""></picture>
+											</a>
+											<div class="item-wishlist__body">
+												<a href="product.html" class="item-wishlist__title item-cart-title">Premium Square Sunglasses</a>
+												<div class="item-wishlist__price f-14-23">$32.95</div>
+											</div>
+										</div>
+										<div class="item-wishlist__right right-item-wishlist">
+											<a href="cart.html" class="right-item-wishlist__cart">
+												<img src="img/account/icons/cart.svg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="wishlist-account__item item-wishlist">
+										<div class="item-wishlist__content">
+											<a href="product.html" class="item-wishlist__image">
+												<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.png" alt=""></picture>
+											</a>
+											<div class="item-wishlist__body">
+												<a href="product.html" class="item-wishlist__title item-cart-title">Aviator Glasses</a>
+												<div class="item-wishlist__price f-14-23">$32.95</div>
+											</div>
+										</div>
+										<div class="item-wishlist__right right-item-wishlist">
+											<a href="cart.html" class="right-item-wishlist__cart">
+												<img src="img/account/icons/cart.svg" alt="">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container-small">
+				<div class="footer__body">
+					<div class="footer__column">
+						<div class="footer__about">
+							<h3 class="footer__title footer-title">About Us</h3>
+							<div class="footer__text footer-text">
+								<p>Nepal's Coolest Eyewear Store</p>
+								<p>ORDER ANYTIME AND RECEIVE FREE AND FAST DELIVERY.</p>
+							</div>
+						</div>
+						<div class="footer__contact contact-footer">
+							<h3 class="contact-footer__title footer-title">Contact</h3>
+							<ul class="contact-footer__list">
+								<li class="contact-footer__item">
+									<p class="contact-footer__label footer-text">Phone</p>
+									<a href="tel:9823749232" class="contact-footer__link footer-text footer-link">9823-749-232</a>
+								</li>
+								<li class="contact-footer__item">
+									<p class="contact-footer__label footer-text">Email</p>
+									<a href="mailto:visioncustomercare@outlook.com" class="contact-footer__link footer-text footer-link">visioncustomercare@outlook.com</a>
+								</li>
+								<li class="contact-footer__item">
+									<p class="contact-footer__label footer-text">Address</p>
+									<p class="contact-footer__text footer-text">Maitidevi, Kathmandu</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__policy policy-footer">
+							<h3 class="policy-footer__title footer-title">Policy</h3>
+							<ul class="policy-footer__list">
+								<li class="policy-footer__item">
+									<a href="" class="policy-footer__link footer-text footer-link">Delivery</a>
+								</li>
+								<li class="policy-footer__item">
+									<a href="" class="policy-footer__link footer-text footer-link">Payment</a>
+								</li>
+								<li class="policy-footer__item">
+									<a href="" class="policy-footer__link footer-text footer-link">Exchange and Return</a>
+								</li>
+								<li class="policy-footer__item">
+									<a href="" class="policy-footer__link footer-text footer-link">Cancellation</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__socials socials-footer">
+							<h3 class="socials-footer__title footer-title">Socials</h3>
+							<ul class="socials-footer__list">
+								<li class="socials-footer__item">
+									<a href="" class="socials-footer__link instagram-link">
+										<!-- <img src="img/footer/icons/instagram.svg" alt="Instagram"> -->
+									</a>
+								</li>
+								<li class="socials-footer__item">
+									<a href="" class="socials-footer__link twitter-link">
+										<!-- <img src="img/footer/icons/twitter.svg" alt="Twitter"> -->
+									</a>
+								</li>
+								<li class="socials-footer__item">
+									<a href="" class="socials-footer__link facebook-link">
+										<!-- <img src="img/footer/icons/facebook.svg" alt="Facebook"> -->
+									</a>
+								</li>
+								<li class="socials-footer__item">
+									<a href="" class="socials-footer__link youtube-link">
+										<!-- <img src="img/footer/icons/youtube.svg" alt="Youtube"> -->
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20221020135442"></script>
+</body>
+
+</html>
