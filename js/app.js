@@ -3467,11 +3467,16 @@
         }
     }));
     const productMainImage = document.querySelector(".image-product__main-ibg_contain img");
+    const productMainImageSource = document.querySelector(".image-product__main-ibg_contain source");
     const productSmallImages = document.querySelectorAll(".items-image-product__small-ibg_contain img");
     if (productMainImage && productSmallImages) productSmallImages.forEach((productSmallImage => {
         productSmallImage.addEventListener("click", (function(e) {
             productMainImage.src = productSmallImage.src;
             e.preventDefault();
+            if (productMainImageSource) {
+                productMainImageSource.srcset = productSmallImage.src.replace(/\.png/g, ".webp");
+                e.preventDefault();
+            }
         }));
     }));
     const quantityCartBlockAll = document.querySelectorAll(".quantity-block");

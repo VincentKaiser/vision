@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap);
 
 @import url(https://fonts.googleapis.com/css?family=Mitr:regular&display=swap);
@@ -7,6 +5,8 @@
 @import url(https://fonts.googleapis.com/css?family=Metrophobic:regular);
 
 @import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+
+@charset "UTF-8";
 
 * {
   padding: 0px;
@@ -110,6 +110,13 @@ h6 {
 .wrapper > * {
   min-width: 0;
 }
+
+/*
+(i) Стили будут применяться ко 
+всем классам содержащим *__container
+Например header__container, main__container и т.д.
+Снипет (HTML): cnt
+*/
 
 [class*=__container] {
   max-width: 79.875rem;
@@ -606,7 +613,7 @@ input:disabled {
 .policy-footer__list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -1031,7 +1038,7 @@ input:disabled {
 }
 
 .item-products__wish._active {
-  background: #ffffff url("../img/products/icons/heart-red.svg") center no-repeat;
+  background: #ffffff url("../img/products/icons/heart-red.svg") center no-repeat !important;
 }
 
 .item-products__cart {
@@ -1515,7 +1522,7 @@ input:disabled {
 .category__items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
   row-gap: 2.25rem;
   -webkit-box-pack: justify;
@@ -4522,7 +4529,7 @@ button.swiper-pagination-bullet {
   }
 
   .category__items {
-    -ms-grid-columns: (1fr);
+    -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
   }
 }
